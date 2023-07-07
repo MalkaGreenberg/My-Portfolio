@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(254, 254, 230);
+}
+
+.header {
+    height: 100px;
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(249, 204, 249);
+}
+.header img {
+    width: 80px;
+    height: 80px;
+}
+
+.header img {
+    width: 80px;
+    height: 80px;
+}
+h1 {
+    color: black;
+    background-color: rgb(168, 166, 159);
+    padding: 3px;
+    width: 250px;
+    border:5px black;
+    border-style: double;
+    border-radius: 20px;
+    position: relative;
+    top: -65px;
+    left: 105px;
+}
+
+.navTabs {
+    list-style: none;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 28px;
+    right: 25px;
+}
+
+.navLink {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 0px 10px;
+    position: relative;
+    right: 70px;
+    background-color: rgb(168, 166, 159);
+    padding: 5px;
+    border-radius: 5px;
+}
+.navLink:hover {
+    background-color: #f09f42;
+    color: white;
+    border: 2px solid grey;
+    text-decoration: underline;
+}
+
+.navLink:active {
+    background-color: rgb(245, 131, 217);
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 100%;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 16%;
+    width: 70%;
+    font-family: "playfair-Dislay", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px;
+    padding-right: 0;
+    border-left: 3px solid black;
+}
+
+section {
+    position: relative;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 3%;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: xx-large;
+}
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 2px;
+}
+
+
+.big-card a {
+    display: flex;
+    align-items: flex-start;
+    bottom: 10px;
+    left: 30px;
+    width: 100%
+}
+
+
+
+#first-website {
+    width: 100%;
+    height: 90%;
+    border-radius: 50px ;
+    
+}
+ .big-card {
+    border-style: solid;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 75%;
+    border-radius: 50px ;
+    padding: 10px;
+    box-shadow: 10px 10px 5px darkgray;
+    margin: 20px;
+    opacity: 100%;
+ }
+
+ .card {
+    display: inline;
+    position: relative;
+    border-style: solid;
+    width: 45%;
+    height: 350px;
+    border-radius: 50px ;
+    padding: 10px;
+    box-shadow: 10px 10px 5px darkgray;
+    margin: 10px 4px;
+    opacity: 100%;
+}
+.link {
+    width: 100%;
+    height: 90%;
+    padding-bottom: 20px;
+    border-radius: 50px ;
+}
+
+/* class called tittles, they will have a size and will be centered in the bottom of the .card */
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+
+}
+.card:hover,
+.big-card:hover {
+    box-shadow: 20px 20px 10px rgb(245, 160, 245);
+}
+
+.card:active,
+.big-card:active {
+    box-shadow: 20px 20px 10px grey;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.info {
+    text-decoration: underline;
+    font-size: 25px;
+    color: darkorchid;
+    user-select: all;
+}
+
+::selection {
+    color: white;
+    background: purple;
+}
+
+.info:hover {
+    color: black;
+}
